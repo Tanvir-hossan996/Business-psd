@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    $('.counter').counterUp({
+
+        time: 1800,
+    });
 
 
 
@@ -73,10 +77,6 @@ $(document).ready(function () {
     //    counter plugin
 
 
-    $('.counter').counterUp({
-
-        time: 1800,
-    });
 
 
 
