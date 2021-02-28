@@ -1,10 +1,5 @@
 $(document).ready(function () {
 
-    $('.counter').counterUp({
-
-        time: 1800,
-    });
-
 
 
     //  skd slider
@@ -18,11 +13,6 @@ $(document).ready(function () {
         autoSlide: true,
         animationType: 'fading'
     });
-
-
-    //  counter up start
-
-
 
 
     //   fixed-nav start
@@ -74,7 +64,18 @@ $(document).ready(function () {
 
     //    scroll btn end
 
-    //    counter plugin
+
+
+
+    //    counter plugin start
+
+    $('.counter').counterUp({
+
+        time: 1800,
+    });
+
+
+
 
 
 
