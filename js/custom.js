@@ -75,7 +75,42 @@ $(document).ready(function () {
     });
 
 
+    //    gallery click ul
 
+    $(".gallery-bg .gallery .gallery-list ul li").click(function () {
+
+        $(this).addClass("active").siblings().removeClass("active");
+
+
+    });
+
+
+
+    //gallery code
+
+    var mixer = mixitup('.gallery-content');
+
+    //    veno box code
+
+    $('.venobox').venobox({
+
+
+        spinner: "wave",
+
+    });
+
+    //slick slider start
+
+    $('.test-slider').slick({
+        
+        slidesToShow:2,
+        slidesToScroll:1,
+        arrows:false,
+        autoplay:true,
+        autoplaySpeed: 1300,
+        
+        
+    });
 
 
 
